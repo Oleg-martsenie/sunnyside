@@ -30,7 +30,7 @@
     --Grayish-blue: hsl(210, 4%, 67%);
     --White: hsl(0, 0%, 100%);
 
-    --fontSize-Text: 1.7rem;
+    --fontSize-Text: 1.4rem;
 }
 
 html {
@@ -141,19 +141,231 @@ header {
     font-family: 'Nunito', sans-serif;
 }
 
+h2 {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: transparent;
+    padding: .8rem ;
+    text-transform: uppercase;
+    font-family: 'Fraunces', sans-serif;
+    cursor: pointer;
+    border-bottom: .1rem solid var(--Yellow);
+    box-shadow: 0px 15px 10px -14px var(--Yellow);    
+
+}
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1 .area1-content {
+    padding: 5rem;
+}
+
+.area1 .area1-content .area1-text{
+    margin-bottom: 3rem;
+    line-height: 2;
+    font-size: var(--fontSize-Text);
+}
+
+.area1 .area1-img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/desktop/croassana1.jpg');
+}
 
 
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2 .area2-content {
+    padding: 5rem;
+}
+
+.area2 .area2-content .area2-text{
+    margin-bottom: 3rem;
+    line-height: 2;
+    font-size: var(--fontSize-Text);
+}
+
+.area2 .area2-img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/desktop/pexels-oleg-magni-890515.jpg');
+    grid-row:  2 / 1;
+}
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3 .area3-img1 {
+    position: relative;
+    height: 45rem;
+    padding: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/desktop/image-graphic-design.jpg');
+}
+
+.area3 .area3-img2 {
+    position: relative;
+    height: 45rem;
+    padding: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/desktop/image-photography.jpg');
+}
+
+.area3 .area3-img1 .content,
+.area3 .area3-img2 .content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    top: 60%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.area3 .area3-img1 .content h3,
+.area3 .area3-img2 .content h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.area3 .area3-img1 .content .content-text,
+.area3 .area3-img2 .content .content-text {
+    line-height: 2;
+    -ms-word-wrap: break-word;
+    font-size: var(--fontSize-Text);
+    margin-bottom: 2rem;
+}
+
+.testimonials .main-heading {
+    -webkit-text-stroke: .05rem var(--Dark-blue-text);
+    margin-bottom: 2rem;
+}
+
+.testimonials .main-heading span {
+    -webkit-text-stroke: .05rem var(--Dark-blue-text);
+    color: #222;
+}
 
 
+.testimonials {
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.testimonials .testimonial-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonials .testimonial-area .box {
+    text-align: center;
+    box-shadow: .1rem  0 .8rem rgb(223, 221, 223);
+    gap: 1.5rem;
+    padding: 5rem;
+    border-radius: .5rem;
+    margin: 0 .8rem;
+    width: 100%;
+}
 
 
+.testimonials .testimonial-area .box img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+.testimonials .testimonial-area .box .content p {
+    font-size: var(--fontSize-Text);
+    color: var(--Very-dark-desaturated-blue);
+    padding: 2rem 0;
+}
+
+.testimonials .testimonial-area .box .content .client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
+.testimonials .testimonial-area .box .content .client h3 {
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.testimonials .testimonial-area .box .content .client span {
+    font-size: var(--fontSize-Text);
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
+}
+
+footer {
+    padding: 2rem 9%;
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--Dark-moderate-cyan-footer);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .logo {
+    margin-top: 3rem;
+}
+
+.footer .menu {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.footer .menu a {
+    padding: .8rem 1rem;
+    margin-left: 1rem;
+    font-size: var(--fontSize-Text);
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
+    font-weight: 600;
+}
+
+.footer .contact-social {
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.footer .contact-social .social a img {
+    padding: .8rem 1rem;
+    margin-left: 1rem;
+}
 
 
-
-
-
+.footer .contact-social .social a:hover img {
+    background-color: var(--Grayish-blue);
+}
 
 
 @media screen and (max-width: 991px) {
@@ -166,7 +378,7 @@ header {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .header .menu-mobile i {
         display: block;
     }
@@ -203,6 +415,35 @@ header {
     .first-area .left .content {
         padding: 3rem 0;
     }
+    h2 {
+        font-size: 2.3rem;
+    }
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+    .area3 {
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 3fr));
+    }
+    .area3 .area3-img1 .content h3,
+    .area3 .area3-img2 .content h3 {
+        font-size: 2rem;
+    }
+    .area3 .area3-img1 .content .content-text,
+    .area3 .area3-img2 .content .content-text {
+        line-height: 1.5;
+        font-size: 1.3rem;
+        margin-bottom: .9rem;
+    }
+    .testimonials .testimonial-area {
+        flex-wrap: wrap;
+    }
+    .testimonials .testimonial-area .box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 
     
 }
@@ -216,5 +457,24 @@ header {
     }
     .main-heading span {
         font-size: 1.8rem;
+    }
+    .area1{
+        grid-template-columns: 1fr;
+    }
+    .area2 {
+        grid-template-columns: 2fr;
+    }
+    .area3 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .area3 .area3-img1 .content h3,
+    .area3 .area3-img2 .content h3 {
+        font-size: 2.2rem;
+        margin-bottom: 4.4rem;
+    }
+    .area3 .area3-img1 .content .content-text,
+    .area3 .area3-img2 .content .content-text {
+        line-height: 1.2;
+        font-size: 1.5rem;
     }
 }

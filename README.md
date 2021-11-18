@@ -1,50 +1,14 @@
-About
-  Services
-  Projects
-  Contact
+## Projeto <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef/hub/sunnyside-agency-landing-page-p5SB-SkFS">Sunnyside agency landing page challenge hub
+</a> do Front End Mentor
 
-  We are creatives
+<p>Fiz algumas alterações no projeto e o resultado foi espetacular, vou por uma gif abaixo.</p>
 
-  Transform your brand
+<h3>Esse é relativamente simples, todavia precisei fazer bastante pesquisas pois eesqueci alguns conceitos de CSS os quais pouco uso; no entanto, o projeto está 100% responsivo e usei <kbd>javascript</kbd> apenas no Menu Mobile;</h3>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+<hr />
 
-  Learn more
+<p>Usei, também algumas imagens da plataforma e outras não;</p>
 
-  Stand out to the right audience
+<hr />
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<img src="sunnyside.gif" />

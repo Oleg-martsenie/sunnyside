@@ -7,8 +7,8 @@
 
 <hr />
 
-<p>Usei, também algumas imagens da plataforma e outras não;</p>
+<p>Usei, também algumas imagens da plataforma e outras não</p>
 
-<hr />
+<hr/>
 
 <img src="sunnyside.gif" />
